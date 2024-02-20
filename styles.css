@@ -16,7 +16,7 @@ h1 {
   font-weight: 800px;
   font-size: 36px;
   line-height: 1.5;
-  color: rgb(220, 162, 171);
+  color: rgb(218, 143, 155);
   text-align: center;
   padding-top: 30px;
 }
@@ -63,4 +63,5 @@ footer {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
+  color: grey;
 }
