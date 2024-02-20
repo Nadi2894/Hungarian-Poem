@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Hungarian poem generetor</title>
   </head>
   <body>
@@ -12,7 +14,7 @@
         <h1>AI Hungarian poem generetor</h1>
       </header>
       <main>
-        <form>
+        <form id="poemGenerator">
           <input
             type="text"
             placeholder="Enter the topic of Hungarian poem"
@@ -23,11 +25,7 @@
           />
           <input type="submit" class="submitButton" />
         </form>
-        <div class="poem">
-          The poem will go header
-          <br />
-          The poem will go here
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
