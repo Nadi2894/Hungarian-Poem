@@ -16,6 +16,10 @@ function generatePoem(event) {
     " Your mission is to write Hungarian poem in seperated lines with <br/>.Do not include the title of the poem. Include the author of the poem";
   let prompt = `Please generate Hungarian poem about${userinstructionsInput.value}`;
   let ApiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class="generating">⏳ Generating a Hungarian poem about ${userinstructionsInput.value}</div>`;
   axios.get(ApiUrl).then(displayPoem);
 }
 

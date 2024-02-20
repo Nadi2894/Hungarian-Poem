@@ -51,13 +51,16 @@ form {
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .poem {
-  font-size: 14px;
+  font-size: 16px;
   background-color: #f3e7e1;
   padding: 20px;
   line-height: 24px;
   border-left: 3px solid #bda7f4;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hidden {
+  display: none;
 }
 footer {
   text-align: center;
