@@ -13,7 +13,8 @@ function generatePoem(event) {
 
   let apiKey = "a41b6cct8f269ddeo4da44bf9300d179";
   let context =
-    " Your mission is to write Hungarian poem in seperated lines with <br/>.Do not include the title of the poem. Include the author of the poem";
+    " Your mission is to write Hungarian poem in seperated lines with <br/>.Do not include the title of the poem. Not more than 10 lines";
+
   let prompt = `Please generate Hungarian poem about${userinstructionsInput.value}`;
   let ApiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 

@@ -1,12 +1,18 @@
 body {
-  background-color: whitesmoke;
+  background-image: url(https://img.freepik.com/free-photo/antique-quill-pen-writes-old-fashioned-calligraphy-generated-by-ai_24640-80756.jpg?t=st=1708453095~exp=1708456695~hmac=66c837181799bcc1553d6103d92d135b3ab47883f8f64bdf71aad331144e7d16&w=1060);
   font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: #e2ecf9;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 header {
@@ -14,16 +20,17 @@ header {
 }
 h1 {
   font-weight: 800px;
+  border-radius: 10px;
   font-size: 36px;
   line-height: 1.5;
-  color: rgb(218, 143, 155);
+  color: black;
   text-align: center;
   padding-top: 30px;
 }
 a {
-  color: rgb(220, 162, 171);
+  color: black;
+  font-weight: bold;
 }
-
 form {
   padding: 30px;
   margin-bottom: 20px;
@@ -37,10 +44,12 @@ form {
   border-radius: 50px;
   line-height: 1.5;
   width: 80%;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 .submitButton {
   margin-left: 10px;
-  background: #e2ecf9;
+  background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-433.jpg);
   color: black;
   border: none;
   border-radius: 50px;
@@ -52,27 +61,38 @@ form {
 }
 .poem {
   font-size: 16px;
-  background-color: #f3e7e1;
   padding: 20px;
   line-height: 24px;
-  border-left: 3px solid #bda7f4;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-433.jpg);
 }
 .hidden {
   display: none;
 }
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
+  font-weight: bold;
 }
 @keyframes blink-animation {
   to {
     visibility: hidden;
   }
 }
+
+.form-container {
+  background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-433.jpg);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
+}
 footer {
+  padding: 8px;
+  padding: 0;
+  font-size: 13px;
   text-align: center;
-  font-size: 15px;
-  margin-top: 30px;
-  color: grey;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  margin-left: 500px;
+  background-image: url(https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-433.jpg);
 }

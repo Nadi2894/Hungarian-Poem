@@ -6,30 +6,29 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>AI Hungarian poem generetor</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>AI Hungarian poem generator</h1>
-      </header>
-
       <main>
-        <form id="poemGenerator">
-          <input
-            type="text"
-            placeholder="Enter the topic of Hungarian poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instuction"
-            id="user-instructions"
-          />
-          <input type="submit" class="submitButton" />
-        </form>
+        <div class="form-container">
+          <header>
+            <h1>AI Hungarian Poem Generator</h1>
+          </header>
+          <form id="poemGenerator">
+            <input
+              type="text"
+              placeholder="Enter the topic of Hungarian poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instuction"
+              id="user-instructions"
+            />
+            <input type="submit" class="submitButton" />
+          </form>
+        </div>
         <div class="poem hidden" class="generating" id="poem"></div>
       </main>
-
       <footer>
         This project was coded by <strong>Nadira-Begim</strong> and is open
         sourced on
