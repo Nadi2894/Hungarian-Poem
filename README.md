@@ -1,0 +1,1 @@
+AI-powered Hungarian Poem Generator that creates original poems based on any topic you choose. Simply enter a theme, submit, and watch unique, creative verses appear instantly in a clean, interactive interface—perfect for exploring language, culture, and creativity.
